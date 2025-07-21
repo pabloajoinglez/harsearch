@@ -6,6 +6,9 @@ setup(
     description='A command line tool for searching through HAR files',
     author='Pablo Ajo',
     packages=find_packages(),
+    install_requires=[
+        'colorama>=0.4.0',
+    ],
     entry_points={
         'console_scripts': [
             'harsearch = harsearch.__main__:main',
